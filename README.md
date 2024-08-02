@@ -355,6 +355,7 @@ parser = OmniParse(
 
 # Parse a document
 document = parser.load_data('path/to/document.pdf')
+# test
 
 # Convert to markdown
 parser.save_to_markdown(document)
